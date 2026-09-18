@@ -1,0 +1,29 @@
+{
+  "GRASTA": {
+    "source": "https://github.com/andrewssobral/lrslibrary.git",
+    "subdir": "algorithms/st/GRASTA",
+    "license": "upstream LGPL/GPL notices",
+    "target": "GRASTA"
+  },
+  "ReProCS": {
+    "source": "https://github.com/praneethmurthy/ReProCS.git",
+    "license": "MIT plus bundled dependency notices",
+    "target": "ReProCS"
+  },
+  "GeRoST_GREAT": {
+    "source": "https://github.com/shreyasnb/GeRoST.git",
+    "license": "GPL-3.0",
+    "target": "GeRoST"
+  },
+  "Manopt": {
+    "source": "https://github.com/NicolasBoumal/manopt.git",
+    "license": "see upstream",
+    "target": "manopt"
+  },
+  "GREAT_original_reference": {
+    "source": "https://git.ethz.ch/asasfi/ST_for_sysID.git",
+    "license": "see upstream",
+    "target": "not installed; reference only",
+    "note": "Benchmark uses great.m bundled in shreyasnb/GeRoST to match the GeRoST paper comparison."
+  }
+}

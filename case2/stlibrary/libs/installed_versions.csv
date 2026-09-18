@@ -1,0 +1,5 @@
+name,path,status,revision
+ReProCS,/home/shrike/Documents/PhD/stlibrary/libs/ReProCS,cloned,c8b6218e10d8b737f41c4feb15534356118844ad
+GeRoST,/home/shrike/Documents/PhD/stlibrary/libs/GeRoST,cloned,481729f64d8a86371b806f11dd8ef4ebd8720785
+Manopt,/home/shrike/Documents/PhD/stlibrary/libs/manopt,cloned,6c369671d8834aa28f7e222c7d89c5f216e6953d
+GRASTA,/home/shrike/Documents/PhD/stlibrary/libs/GRASTA,ready,07cb09d69666e81b4bbc1da24b22943674b2afe3
