@@ -1,0 +1,13 @@
+function missing = check_dependencies(projectRoot)
+%CHECK_DEPENDENCIES Check installed third-party algorithm folders.
+if nargin<1 || isempty(projectRoot), projectRoot=fileparts(fileparts(mfilename('fullpath'))); end
+checks={...
+    'GRASTA', fullfile(projectRoot,'libs','GRASTA','grasta_stream.m'); ...
+    'ReProCS', fullfile(projectRoot,'libs','ReProCS','YALL1_v1.4'); ...
+    'GeRoST/GREAT', fullfile(projectRoot,'libs','GeRoST','gerost.m'); ...
+    'Manopt', fullfile(projectRoot,'libs','manopt')};
+missing={};
+for i=1:size(checks,1)
+    p=checks{i,2}; if ~(isfile(p)||isfolder(p)), missing{end+1}=checks{i,1}; end %#ok<AGROW>
+end
+end
